@@ -47,10 +47,8 @@ C 库函数 **long int ftell(FILE *stream)** 返回给定流 stream 的当前文
 
 假设我们有一个文本文件 **file.txt**，它的内容如下：
 
-    This is w3cschool.cc
+    This is jikexueyuan.com
 
 让我们编译并运行上面的程序，如果文件内容如上所示，这将产生以下结果，否则会根据文件内容给出不同的结果：
 
     file.txt 的总大小 = 21 字节
-
-![C 标准库 - ][1][ C 标准库 - ][2]

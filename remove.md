@@ -1,4 +1,4 @@
-# C 库函数 – remove()
+jikexueyuan# C 库函数 – remove()
 
 
 ## 描述
@@ -34,7 +34,7 @@ C 库函数 **int remove(const char *filename)** 删除给定的文件名 **file
 
        fp = fopen(filename, "w");
 
-       fprintf(fp, "%s", "这里是 w3cschool.cc");
+       fprintf(fp, "%s", "这里是 jikexueyuan.com");
        fclose(fp);
 
        ret = remove(filename);

@@ -1,4 +1,4 @@
-# C 库函数 – vsprintf()
+jikexueyuan# C 库函数 – vsprintf()
 
 
 ## 描述
@@ -48,7 +48,7 @@ C 库函数 **int vsprintf(char *str, const char *format, va_list arg)** 使用�
     {
        int i = 5;
        float f = 27.0;
-       char str[50] = "w3cschool.cc";
+       char str[50] = "jikexueyuan.com";
 
        vspfunc("%d %f %s", i, f, str);
        printf("%sn", buffer);
@@ -58,4 +58,4 @@ C 库函数 **int vsprintf(char *str, const char *format, va_list arg)** 使用�
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    5 27.000000 w3cschool.cc
+    5 27.000000 jikexueyuan.com

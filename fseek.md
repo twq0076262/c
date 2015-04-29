@@ -17,11 +17,7 @@ C 库函数 **int fseek(FILE *stream, long int offset, int whence)** 设置流 *
 * **offset** \-- 这是相对 whence 的偏移量，以字节为单位。
 * **whence** \-- 这是表示开始添加偏移 offset 的位置。它一般指定为下列常量之一：
 
-| ----- |
-| 常量 | 描述 |
-| SEEK_SET | 文件的开头 |
-| SEEK_CUR | 文件指针的当前位置 |
-| SEEK_END | 文件的末尾 |
+</li> </ul> <table class="reference notranslate"> <tr><th style="width:4%">常量</th><th>描述</th></tr> <tr><td>SEEK_SET</td><td>文件的开头</td></tr> <tr><td>SEEK_CUR</td><td>文件指针的当前位置</td></tr> <tr><td>SEEK_END</td><td>文件的末尾</td></tr> </table>
 
 ## 返回值
 
@@ -38,7 +34,7 @@ C 库函数 **int fseek(FILE *stream, long int offset, int whence)** 设置流 *
        FILE *fp;
 
        fp = fopen("file.txt","w+");
-       fputs("This is w3cschool.cc", fp);
+       fputs("This is jikexueyuan.com", fp);
 
        fseek( fp, 7, SEEK_SET );
        fputs(" C Programming Langauge", fp);
@@ -47,7 +43,7 @@ C 库函数 **int fseek(FILE *stream, long int offset, int whence)** 设置流 *
        return(0);
     }
 
-让我们编译并运行上面的程序，这将创建文件 **file.txt**，它的内容如下。最初程序创建文件和写入 _This is w3cschool.cc_，但是之后我们在第七个位置重置了写指针，并使用 puts() 语句来重写文件，内容如下：
+让我们编译并运行上面的程序，这将创建文件 **file.txt**，它的内容如下。最初程序创建文件和写入 _This is jikexueyuan.com_，但是之后我们在第七个位置重置了写指针，并使用 puts() 语句来重写文件，内容如下：
 
     This is C Programming Langauge
 

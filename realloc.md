@@ -33,12 +33,12 @@ C 库函数 **void *realloc(void *ptr, size_t size)** 尝试重新调整之前�
 
        /* 最初的内存分配 */
        str = (char *) malloc(15);
-       strcpy(str, "w3cschool");
+       strcpy(str, "jikexueyuan");
        printf("String = %s,  Address = %un", str, str);
 
        /* 重新分配内存 */
        str = (char *) realloc(str, 25);
-       strcat(str, ".cc");
+       strcat(str, ".com");
        printf("String = %s,  Address = %un", str, str);
 
        free(str);
@@ -48,5 +48,5 @@ C 库函数 **void *realloc(void *ptr, size_t size)** 尝试重新调整之前�
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    String = w3cschool, Address = 355090448
-    String = w3cschool.cc, Address = 355090448
+    String = jikexueyuan, Address = 355090448
+    String = jikexueyuan.com, Address = 355090448

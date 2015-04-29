@@ -1,4 +1,4 @@
-# C 库函数 – ungetc()
+jikexueyuan# C 库函数 – ungetc()
 
 
 ## 描述
@@ -58,13 +58,13 @@ C 库函数 **int ungetc(int char, FILE *stream)** 把字符 **char**（一个�
 
 假设我们有一个文本文件 **file.txt**，它的内容如下。文件将作为实例中的输入：
 
-    this is w3cschool
+    this is jikexueyuan
     !c standard library
     !library functions and macros
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    this is w3cschool
+    this is jikexueyuan
     +c standard library
     +library functions and macros
     +library functions and macros

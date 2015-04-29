@@ -32,7 +32,7 @@ C 库函数 **int mbtowc(whcar_t *pwc, const char *str, size_t n)** 把一个多
 
     int main()
     {
-       char *str = "这里是 w3cschool.cc";
+       char *str = "这里是 jikexueyuan.com";
        wchar_t mb[100];
        int len;
 

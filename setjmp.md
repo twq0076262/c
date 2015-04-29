@@ -1,4 +1,4 @@
-# C 库宏 – setjmp()
+jikexueyuan# C 库宏 – setjmp()
 
 
 ## 描述
@@ -47,10 +47,10 @@ C 库宏 **int setjmp(jmp_buf environment)** 把当前环境保存在变量 envi
 
     void jmpfunction(jmp_buf env_buf)
     {
-       longjmp(env_buf, "w3cschool.cc");
+       longjmp(env_buf, "jikexueyuan.com");
     }
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
     跳转函数调用
-    从 longjmp() 返回值 = w3cschool.cc
+    从 longjmp() 返回值 = jikexueyuan.com

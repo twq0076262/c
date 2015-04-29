@@ -33,7 +33,7 @@ C 库函数 **void iscntrl(int c)** 检查所传的字符是否是控制字符�
     {
        int i = 0, j = 0;
        char str1[] = "all a about t programming";
-       char str2[] = "w3cschool n tutorials";
+       char str2[] = "w3cscjikexueyuanhool n tutorials";
 
        /* 输出字符串直到控制字符 a */
        while( !iscntrl(str1[i]) )
@@ -54,4 +54,4 @@ C 库函数 **void iscntrl(int c)** 检查所传的字符是否是控制字符�
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    all w3cschool
+    all jikexueyuan

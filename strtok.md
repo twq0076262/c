@@ -1,4 +1,4 @@
-# C 库函数 – strtok()
+jikexueyuan# C 库函数 – strtok()
 
 
 ## 描述
@@ -29,7 +29,7 @@ C 库函数 **char *strtok(char *str, const char *delim)** 分解字符串 **str
 
     int main()
     {
-       const char str[80] = "This is - www.w3cschool.cc - website";
+       const char str[80] = "This is - www.jikexueyuan.com - website";
        const char s[2] = "-";
        char *token;
 
@@ -50,5 +50,5 @@ C 库函数 **char *strtok(char *str, const char *delim)** 分解字符串 **str
 让我们编译并运行上面的程序，这将产生以下结果：
 
     This is
-    www.w3cschool.cc
+    www.jikexueyuan.com
     website

@@ -1,4 +1,4 @@
-# C 库函数 – strlen()
+jikexueyuan# C 库函数 – strlen()
 
 
 ## 描述
@@ -31,7 +31,7 @@ C 库函数 **size_t strlen(const char *str) ** 计算字符串 **str** 的长�
        char str[50];
        int len;
 
-       strcpy(str, "This is w3cschool.cc");
+       strcpy(str, "This is jikexueyuan.com");
 
        len = strlen(str);
        printf("|%s| 的长度是 |%d|n", str, len);
@@ -41,4 +41,4 @@ C 库函数 **size_t strlen(const char *str) ** 计算字符串 **str** 的长�
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    |This is w3cschool.cc| 的长度是 |20|
+    |This is jikexueyuan.com| 的长度是 |20|

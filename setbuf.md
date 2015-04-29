@@ -31,7 +31,7 @@ C 库函数 **void setbuf(FILE *stream, char *buffer)** 定义流 stream 应如�
        char buf[BUFSIZ];
 
        setbuf(stdout, buf);
-       puts("This is w3cschool");
+       puts("This is jikexueyuan");
 
        fflush(stdout);
        return(0);

@@ -36,7 +36,7 @@ C 库函数 **long int atol(const char *str)** 把参数 **str** 所指向的字
        val = atol(str);
        printf("字符串值 = %s, 长整型值 = %ldn", str, val);
 
-       strcpy(str, "w3cschool.cc");
+       strcpy(str, "jikexueyuan.com");
        val = atol(str);
        printf("字符串值 = %s, 长整型值 = %ldn", str, val);
 
@@ -46,4 +46,4 @@ C 库函数 **long int atol(const char *str)** 把参数 **str** 所指向的字
 让我们编译并运行上面的程序，这将产生以下结果：
 
     字符串值 = 98993489, 长整型值 = 98993489
-    字符串值 = w3cschool.cc, 长整型值 = 0
+    字符串值 = jikexueyuan.com, 长整型值 = 0

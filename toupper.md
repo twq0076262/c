@@ -1,4 +1,4 @@
-# C 库函数 – toupper()
+jikexueyuan# C 库函数 – toupper()
 
 ## 描述
 
@@ -29,7 +29,7 @@ C 库函数 **int toupper(int c)** 把小写字母转换为大写字母。
     {
        int i = 0;
        char c;
-       char str[] = "W3Cschool Tutorials";
+       char str[] = "jikexueyuan Tutorials";
 
        while(str[i])
        {
@@ -42,4 +42,4 @@ C 库函数 **int toupper(int c)** 把小写字母转换为大写字母。
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    W3CSCHOOL TUTORIALS
+    jikexueyuan TUTORIALS

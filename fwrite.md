@@ -31,7 +31,7 @@ C 库函数 **size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *st
     int main ()
     {
        FILE *fp;
-       char str[] = "This is w3cschool.cc";
+       char str[] = "This is jikexueyuan.com";
 
        fp = fopen( "file.txt" , "w" );
        fwrite(str , 1 , sizeof(str) , fp );
@@ -43,7 +43,7 @@ C 库函数 **size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *st
 
 让我们编译并运行上面的程序，这将创建一个文件 **file.txt**，它的内容如下：
 
-    This is w3cschool.cc
+    This is jikexueyuan.com
 
 现在让我们使用下面的程序查看上面文件的内容：
 

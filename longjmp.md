@@ -1,4 +1,4 @@
-# C 库函数 – longjmp()
+jikexueyuan# C 库函数 – longjmp()
 
 
 ## 描述
@@ -48,10 +48,10 @@ C 库函数 **void longjmp(jmp_buf environment, int value)** 恢复最近一次�
 
     void jmpfunction(jmp_buf env_buf)
     {
-       longjmp(env_buf, "w3cschool.cc");
+       longjmp(env_buf, "jikexueyuan.com");
     }
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
     跳转函数调用
-    从 longjmp() 返回值 = w3cschool.cc
+    从 longjmp() 返回值 = jikexueyuan.com

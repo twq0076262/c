@@ -27,7 +27,7 @@ C 库函数 **void rewind(FILE *stream)** 设置文件位置为给定流 **strea
 
     int main()
     {
-       char str[] = "This is w3cschool.cc";
+       char str[] = "This is jikexueyuan.com";
        FILE *fp;
        int ch;
 
@@ -65,9 +65,9 @@ C 库函数 **void rewind(FILE *stream)** 设置文件位置为给定流 **strea
 
 假设我们有一个文本文件 **file.txt**，它的内容如下：
 
-    This is w3cschool.cc
+    This is jikexueyuan.com
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    This is w3cschool.cc
-    This is w3cschool.cc
+    This is jikexueyuan.com
+    This is jikexueyuan.com

@@ -5,7 +5,7 @@
 
 C 库函数 **int tolower(int c)** 把给定的字母转换为小写字母。
 
-## 声明
+## 声明jikexueyuan
 
 下面是 tolower() 函数的声明。
 
@@ -30,7 +30,7 @@ C 库函数 **int tolower(int c)** 把给定的字母转换为小写字母。
     {
        int i = 0;
        char c;
-       char str[] = "W3CSCHOOL TUTORIALS";
+       char str[] = "jikexueyuan TUTORIALS";
 
        while( str[i] )
        {
@@ -43,4 +43,4 @@ C 库函数 **int tolower(int c)** 把给定的字母转换为小写字母。
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    w3cschool tutorials
+    jikexueyuan tutorials
