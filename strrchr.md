@@ -1,4 +1,4 @@
-# C 库函数 – strrchr()
+jikexueyuan# C 库函数 – strrchr()
 
 
 ## 描述
@@ -30,7 +30,7 @@ C 库函数 **char *strrchr(const char *str, int c)** 在参数 **str** 所指�
     int main ()
     {
        int len;
-       const char str[] = "http://www.w3cschool.cc";
+       const char str[] = "http://www.jikexueyuan.com";
        const char ch = '.';
        char *ret;
 

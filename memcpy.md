@@ -1,4 +1,4 @@
-# C 库函数 – memcpy()
+jikexueyuan# C 库函数 – memcpy()
 
 
 ## 描述
@@ -30,7 +30,7 @@ C 库函数 **void *memcpy(void *str1, const void *str2, size_t n)** 从存储�
 
     int main ()
     {
-       const char src[50] = "http://www.w3cschool.cc";
+       const char src[50] = "http://www.jikexueyuan.com";
        char dest[50];
 
        printf("Before memcpy dest = %sn", dest);
@@ -43,4 +43,4 @@ C 库函数 **void *memcpy(void *str1, const void *str2, size_t n)** 从存储�
 让我们编译并运行上面的程序，这将产生以下结果：
 
     Before memcpy dest =
-    After memcpy dest = http://www.w3cschool.cc
+    After memcpy dest = http://www.jikexueyuan.com

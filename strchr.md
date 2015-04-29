@@ -1,4 +1,4 @@
-# C 库函数 – strchr()
+jikexueyuan# C 库函数 – strchr()
 
 
 ## 描述
@@ -29,7 +29,7 @@ C 库函数 **char *strchr(const char *str, int c)** 在参数 **str** 所指向
 
     int main ()
     {
-       const char str[] = "http://www.w3cschool.cc";
+       const char str[] = "http://www.jikexueyuan.com";
        const char ch = '.';
        char *ret;
 
@@ -42,4 +42,4 @@ C 库函数 **char *strchr(const char *str, int c)** 在参数 **str** 所指向
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    |.| 之后的字符串是 - |.w3cschool.cc|
+    |.| 之后的字符串是 - |.jikexueyuan.com|

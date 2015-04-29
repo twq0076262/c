@@ -1,4 +1,4 @@
-# C 库函数 - strstr()
+jikexueyuan# C 库函数 - strstr()
 
 ## 描述
 
@@ -27,7 +27,7 @@ needle -- 在 haystack 字符串内要搜索的小字符串。
 
     int main()
     {
-       const char haystack[20] = "W3CSchool";
+       const char haystack[20] = "jikexueyuan";
        const char needle[10] = "School";
        char *ret;
 

@@ -47,5 +47,5 @@ C 库宏 **void assert(int expression)** 允许诊断信息被写入到标准错
 
     请输入一个整数值： 11
     输入的整数是： 11
-    请输入字符串： w3cschool
-    输入的字符串是： w3cschool
+    请输入字符串： jikexueyuan
+    输入的字符串是： jikexueyuan

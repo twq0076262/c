@@ -36,7 +36,7 @@ C 库函数 **double atof(const char *str)** 把参数 **str** 所指向的字�
        val = atof(str);
        printf("字符串值 = %s, 浮点值 = %fn", str, val);
 
-       strcpy(str, "w3cschool.cc");
+       strcpy(str, "jikexueyuan.com");
        val = atof(str);
        printf("字符串值 = %s, 浮点值 = %fn", str, val);
 
@@ -46,4 +46,4 @@ C 库函数 **double atof(const char *str)** 把参数 **str** 所指向的字�
 让我们编译并运行上面的程序，这将产生以下结果：
 
     字符串值 = 98993489, 浮点值 = 98993488.000000
-    字符串值 = w3cschool.cc, 浮点值 = 0.000000
+    字符串值 = jikexueyuan.com, 浮点值 = 0.000000

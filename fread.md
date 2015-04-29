@@ -1,4 +1,4 @@
-# C 库函数 – fread()
+jikexueyuan# C 库函数 – fread()
 
 
 ## 描述
@@ -32,7 +32,7 @@ C 库函数 **size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)**
     int main()
     {
        FILE *fp;
-       char c[] = "This is w3cschool";
+       char c[] = "This is jikexueyuan";
        char buffer[20];
 
        /* 打开文件用于读写 */
@@ -52,6 +52,6 @@ C 库函数 **size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)**
        return(0);
     }
 
-让我们编译并运行上面的程序，这将创建一个文件 **file.txt**，然后写入内容 _this is w3cschool_。接下来我们使用 **fseek()** 函数来重置写指针到文件的开头，文件内容如下所示：
+让我们编译并运行上面的程序，这将创建一个文件 **file.txt**，然后写入内容 _this is jikexueyuan_。接下来我们使用 **fseek()** 函数来重置写指针到文件的开头，文件内容如下所示：
 
-    This is w3cschool
+    This is jikexueyuan

@@ -1,4 +1,4 @@
-# C 库函数 – puts()
+jikexueyuan# C 库函数 – puts()
 
 
 ## 描述
@@ -31,8 +31,8 @@ C 库函数 **int puts(const char *str)** 把一个字符串写入到标准输�
        char str1[15];
        char str2[15];
 
-       strcpy(str1, "w3cschool");
-       strcpy(str2, "w3cbird");
+       strcpy(str1, "jikexueyuan");
+       strcpy(str2, "jkcbird");
 
        puts(str1);
        puts(str2);
@@ -42,5 +42,5 @@ C 库函数 **int puts(const char *str)** 把一个字符串写入到标准输�
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    w3cschool
-    w3cbird
+    jikexueyuan
+    jkcbird

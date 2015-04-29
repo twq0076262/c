@@ -1,4 +1,4 @@
-# C 库函数 – memchr()
+jikexueyuan# C 库函数 – memchr()
 
 
 ## 描述
@@ -30,7 +30,7 @@ C 库函数 **void *memchr(const void *str, int c, size_t n)** 在参数 **str**
 
     int main ()
     {
-       const char str[] = "http://www.w3cschool.cc";
+       const char str[] = "http://www.jikexueyuan.com";
        const char ch = '.';
        char *ret;
 
@@ -43,4 +43,4 @@ C 库函数 **void *memchr(const void *str, int c, size_t n)** 在参数 **str**
 
 让我们编译并运行上面的程序，这将产生以下结果：
 
-    |.| 之后的字符串是 - |.w3cschool.cc|
+    |.| 之后的字符串是 - |.jikexueyuan.com|

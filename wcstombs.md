@@ -34,7 +34,7 @@ C 库函数 **size_t wcstombs(char *str, const wchar_t *pwcs, size_t n)** 把宽
     {
        size_t ret;
        char *MB = (char *)malloc( BUFFER_SIZE );
-       wchar_t *WC = L"http://www.w3cschool.cc";
+       wchar_t *WC = L"http://www.jikexueyuan.com";
 
        /* 转换宽字符字符串 */
        ret = wcstombs(MB, WC, BUFFER_SIZE);
@@ -48,4 +48,4 @@ C 库函数 **size_t wcstombs(char *str, const wchar_t *pwcs, size_t n)** 把宽
 让我们编译并运行上面的程序，这将产生以下结果：
 
     要转换的字符数 = 23
-    多字节字符 = http://www.w3cschool.cc
+    多字节字符 = http://www.jikexueyuan.com

@@ -1,4 +1,4 @@
-# C 库函数 – scanf()
+jikexueyuan# C 库函数 – scanf()
 
 
 ## 描述
@@ -53,7 +53,7 @@ format 说明符形式为 [**=%[*][width][modifiers]type=]**，具体讲解如�
 让我们编译并运行上面的程序，这将在交互模式下产生以下结果：
 
     请输入用户名：admin
-    请输入您的网站：www.w3cschool.cc
+    请输入您的网站：www.jikexueyuan.com
 
     输入的用户名：admin
-    输入的网站：www.w3cschool.cc
+    输入的网站：www.jikexueyuan.com
