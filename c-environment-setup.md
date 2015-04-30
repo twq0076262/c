@@ -44,7 +44,7 @@ C 语言编译器用于把源代码编译成最终的可执行程序。这里假
 
 如果您使用的是 Mac OS X，最快捷的获取 GCC 的方法是从苹果的网站上下载 Xcode 开发环境，并按照安装说明进行安装。一旦安装上 Xcode，您就能使用 GNU 编译器。
 
-Xcode 目前可从 [developer.apple.com/technologies/tools/][2] 上下载。
+Xcode 目前可从 https://developer.apple.com/xcode/ 上下载。
 
 ### Windows 上的安装
 
