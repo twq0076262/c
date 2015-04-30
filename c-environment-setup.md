@@ -36,7 +36,7 @@ C 语言编译器用于把源代码编译成最终的可执行程序。这里假
     gcc version 4.1.2 20080704 (Red Hat 4.1.2-46)
 ```
 
-如果未安装 GCC，那么请按照 [http://gcc.gnu.org/install/][1] 上的详细说明安装 GCC。
+如果未安装 GCC，那么请按照 http://gcc.gnu.org/install/ 上的详细说明安装 GCC。
 
 本教程是基于 Linux 编写的，所有给定的实例都已在 Cent OS Linux 系统上编译过。
 
