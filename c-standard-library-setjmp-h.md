@@ -1,4 +1,4 @@
-# C 标准库 - <setjmp.h>
+# C 标准库 - < setjmp.h >
 
 ## 简介
 
