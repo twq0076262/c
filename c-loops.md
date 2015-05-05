@@ -12,7 +12,7 @@
 
 C 语言提供了以下几种循环类型。点击链接查看每个类型的细节。
 
-</p> <table > <tr><th style="width:30%">循环类型</th><th>描述</th></tr> <tr><td><a href="c-while-loop.html" title="C 中的 while 循环">while 循环</a></td><td>当给定条件为真时，重复语句或语句组。它会在执行循环主体之前测试条件。</td></tr> <tr><td><a href="c-for-loop.html" title="C 中的 for 循环">for 循环</a></td><td>多次执行一个语句序列，简化管理循环变量的代码。</td></tr> <tr><td><a href="c-do-while-loop.html" title="C 中的 do...while 循环">do...while 循环</a></td><td>除了它是在循环主体结尾测试条件外，其他与 while 语句类似。</td></tr> <tr><td><a href="c-nested-loops.html" title="C 中的嵌套循环">嵌套循环</a></td><td>您可以在 while、for 或 do..while 循环内使用一个或多个循环。</td></tr> </table> <br />
+</p> <table > <tr><th style="width:30%">循环类型</th><th>描述</th></tr> <tr><td><a href="c-loops-1.md" title="C 中的 while 循环">while 循环</a></td><td>当给定条件为真时，重复语句或语句组。它会在执行循环主体之前测试条件。</td></tr> <tr><td><a href="c-loops-2.md" title="C 中的 for 循环">for 循环</a></td><td>多次执行一个语句序列，简化管理循环变量的代码。</td></tr> <tr><td><a href="c-loops-3.md" title="C 中的 do...while 循环">do...while 循环</a></td><td>除了它是在循环主体结尾测试条件外，其他与 while 语句类似。</td></tr> <tr><td><a href="c-loops-4.md" title="C 中的嵌套循环">嵌套循环</a></td><td>您可以在 while、for 或 do..while 循环内使用一个或多个循环。</td></tr> </table> <br />
 
 ## 循环控制语句
 
@@ -20,7 +20,7 @@ C 语言提供了以下几种循环类型。点击链接查看每个类型的细
 
 C 提供了下列的控制语句。点击链接查看每个语句的细节。
 
-</p> <table > <tr><th style="width:30%">控制语句</th><th>描述</th></tr> <tr><td><a href="c-break-statement.html" title="C 中的 break 语句">break 语句</a></td><td>终止 <b>loop</b> 或 <b>switch</b> 语句，程序流将继续执行紧接着 loop 或 switch 的下一条语句。</td></tr> <tr><td><a href="c-continue-statement.html" title="C 中的 continue 语句">continue 语句</a></td><td>引起循环跳过主体的剩余部分，立即重新开始测试条件。</td></tr> <tr><td><a href="c-goto-statement.html" title="C 中的 goto 语句">goto 语句</a></td><td>将控制转移到被标记的语句。但是不建议在程序中使用 goto 语句。</td></tr> </table> <br /> 
+</p> <table > <tr><th style="width:30%">控制语句</th><th>描述</th></tr> <tr><td><a href="c-loops-5.md" title="C 中的 break 语句">break 语句</a></td><td>终止 <b>loop</b> 或 <b>switch</b> 语句，程序流将继续执行紧接着 loop 或 switch 的下一条语句。</td></tr> <tr><td><a href="c-loops-6.md" title="C 中的 continue 语句">continue 语句</a></td><td>引起循环跳过主体的剩余部分，立即重新开始测试条件。</td></tr> <tr><td><a href="c-loops-7.md" title="C 中的 goto 语句">goto 语句</a></td><td>将控制转移到被标记的语句。但是不建议在程序中使用 goto 语句。</td></tr> </table> <br /> 
 
 ## 无限循环
 
